@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = file("C:\Users\samba\Desktop\pem")  # Specify the path to your GCP service account key file
+  credentials = file("C:/Users/samba/Desktop/pem")  # Specify the path to your GCP service account key file
   project     = "rich-principle-403808"  # Specify your GCP project ID
   region      = "us-central1-a"  # Set your desired GCP region
 }
