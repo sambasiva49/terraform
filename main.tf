@@ -1,4 +1,4 @@
-provider "google" {
+##provider "google" {
 
   project     = "rich-principle-403808"  # Specify your GCP project ID
   region      = "us-central1-a"  # Set your desired GCP region
