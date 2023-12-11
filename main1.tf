@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = "default"
+  credentials = "${file("credential.json")}"
   project     = "rich-principle-403808"
   region      = "us-central1-a"
 }
